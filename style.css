@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Nunito:wght@300&family=Oleo+Script+Swash+Caps:wght@700&family=Poppins:ital,wght@1,900&family=Roboto:ital,wght@0,400;0,900;1,500&family=Space+Grotesk&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--color-primary: #9d2b16;
+	--color-secondary: ;
+	--main-font: Roboto;
+}
+#content {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 10px;
+	margin-top: 15px;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #e8e8e855;
+	font-family: var(--main-font);
+}
+.card {
+	position: relative;
+	width: 300px;
+	height: 400px;
+	padding: 20px;
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 25px 25px 50px rgba(227, 227, 227, 1),
+		-5px 10px 30px rgba(227, 227, 227, 0.9),
+		-5px -5px 15px rgba(227, 227, 227, 0.85);
+}
+img {
+	width: 100%;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.card .imgBx {
+	position: relative;
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+}
+
+.card h3 {
+	color: var(--color-primary);
+	text-align: center;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.card h3 span {
+	font-size: 1em;
+	font-weight: 500;
+	color: #333;
+	text-transform: initial;
+}

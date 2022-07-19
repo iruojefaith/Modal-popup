@@ -1,0 +1,20 @@
+[
+	{
+		"productName": "Closeup pink flower",
+		"productImg": "https://images.pexels.com/photos/4622976/pexels-photo-4622976.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+		"productPrice": "£90",
+		"description": "Pink flowers represent grace, gentility, and happiness. Regardless of the shape of the flower –from the tight, small buds of a pink garden rose to the delicate,open petals of a pink peony in full bloom – pink blossoms convey youth, innocence, and joy"
+	},
+	{
+		"productName": "White rose",
+		"productImg": "https://images.pexels.com/photos/9330151/pexels-photo-9330151.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+		"productPrice": "£40",
+		"description": ""
+	},
+	{
+		"productName": "White and Pink Cherry Blossom",
+		"productImg": "https://images.pexels.com/photos/931181/pexels-photo-931181.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+		"productPrice": "£50",
+		"description": ""
+	}
+]
